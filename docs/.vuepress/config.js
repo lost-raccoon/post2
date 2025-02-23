@@ -12,10 +12,8 @@ module.exports = {
   },
 
   head,
-  plugins,
-  themeConfig,
-}
-// vssue 评论插件
+  // plugins,
+  // vssue 评论插件
   plugins: [
     [
       "vuepress-plugin-vssue-global",
@@ -32,3 +30,6 @@ module.exports = {
       },
     ],
   ],
+  themeConfig,
+}
+
