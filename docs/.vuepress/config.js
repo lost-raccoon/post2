@@ -20,9 +20,9 @@ module.exports = {
       {
         platform: "github",
         title: "[Comment]<%- frontmatter.title %>",
-        needComments: true,
+        needComments: false,
         // 其他的 Vssue 配置
-        autoCreateIssue: true,
+        autoCreateIssue: false,
         clientId: "Ov23livuYcb5W650EhfL",
         clientSecret: "436b9a741d68ff62af34dbb5a32bd7e4a4f3ea9c",
         owner: "lost-raccoon",
